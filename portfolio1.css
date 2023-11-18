@@ -1,0 +1,76 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    justify-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.buttons li {
+    margin: 20px;
+    width: auto;
+    text-align: center;
+    display: flex;
+}
+
+.portfolios {
+    display: flex;
+}
+
+.portdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 30%;
+    margin: 0 1% 1% 1%;
+    border: 5px solid black;
+    border-radius: 12px;
+}
+
+.portdiv img {
+    height: 400px;
+    width: 400px;
+    margin: 5px;
+    max-width: 95%;
+    max-height: 32%;
+    justify-self: center;
+}
+.portfolios h1 {
+    margin: 1em;
+    text-align: center;
+}
+
+#linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+#linkedin img {
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .portfolios {
+        flex-direction: column;
+    }
+
+    .portdiv {
+        width: 90%;
+    }
+  }
